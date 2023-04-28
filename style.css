@@ -1,9 +1,27 @@
+.home-background::before {    
+    content: "";
+    background-image: url(img/home-background.jpg);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
 h1 {
+    position: relative;
     text-align: center;
+    color: red;
 
 }
 
-.try {
+nav {
     text-align: right;
     position: sticky;
     top: 20px;
@@ -12,3 +30,27 @@ h1 {
 .home {
     float: left;
 }
+
+nav {
+    position: relative;
+}
+
+/* Depreciated */
+/* body {
+    min-height: 100%;
+    background: url(img/home-background.jpg) center center cover no-repeat fixed;
+    background-image: url(img/home-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+} */
+
+/* .home-background {
+    position: relative; 
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+} */
